@@ -3,7 +3,7 @@ import React from "react";
 const Profile2 = () => {
   return (
     <div className="profile-container">
-      {/* Background */}
+      
       <div className="background-container">
         <img
           src={require("./Assets/image/bridge.jpg")}
@@ -12,11 +12,11 @@ const Profile2 = () => {
         />
       </div>
 
-      {/* Details */}
+  
       <div className="details-container">
-        {/* Profile Info */}
+      
         <div className="profile-info-container">
-          {/* Info Row 1 */}
+          
           <div className="info-row">
             <h5>Anuj Gosalia</h5>
             <img
@@ -31,15 +31,15 @@ const Profile2 = () => {
             />
           </div>
 
-          {/* Info Row 2 */}
+       
           <div className="info-row">
-            {/* Part 1 */}
+       
             <div className="info-part">
               <div className="info-stat">6482</div>
               <span className="info-label">Followers</span>
             </div>
 
-            {/* Part 2 */}
+         
             <div className="info-part">
               <div className="info-stat">245</div>
               <span className="info-label">Following</span>
@@ -47,7 +47,7 @@ const Profile2 = () => {
           </div>
         </div>
 
-        {/* Profile Link */}
+     
         <div className="profile-link-container">
           <div className="profile-description">
             Co-founder & CEO at Terribly Tiny Tales
@@ -96,7 +96,7 @@ const Profile2 = () => {
         </div>
       </div>
 
-      {/* Your Image */}
+  
       <div className="profile-image-container">
         <img
           src={require("./Assets/image/TTT1.png")}

@@ -23,7 +23,7 @@ body {
   display: flex;
   background-color: black;
   height: 8vh;
-  width: 100px; /* Adjusted for proper syntax without quotes */
+  width: 100px; 
   justify-content: space-between;
   align-items: center;
   margin-right: 2vw;
@@ -65,7 +65,6 @@ body {
   color: white;
 }
 
-/* Styles for mobile devices (up to 767px) */
 @media (max-width: 767px) {
   .but-container {
     width: auto;
@@ -79,23 +78,20 @@ body {
   }
 
   .logo {
-    width: 30%; /* Adjusted as needed */
+    width: 30%; 
     height: auto;
   }
 
   .divider {
-    display: none; /* Hide divider on mobile */
+    display: none; 
   }
 }
 
-/* Styles for laptops and larger screens (768px and above) */
+
 @media (min-width: 768px) {
-  /* Add any additional styles for larger screens here */
 }
 
-
-   /* Common styles for all resolutions */
-   
+  
 
 
 
@@ -111,7 +107,7 @@ body {
   }
   
   .info-stat {
-    width: 4vw; /* Adjusted width for better spacing */
+    width: 4vw; 
     background-color: transparent;
     border: 2px solid grey;
     color: grey;
@@ -125,12 +121,11 @@ body {
   .info-part {
     display: flex;
     flex-direction: column;
-    width: 10vw; /* Adjusted width for better spacing */
+    width: 10vw; 
     align-items: center;
     justify-content: center;
   }
   
-  /* Styles for mobile devices (up to 767px) */
   @media (max-width: 767px) {
     .info-row {
       flex-direction: column;
@@ -138,24 +133,23 @@ body {
     }
   
     .info-part {
-      width: auto; /* Adjusted for better responsiveness on smaller screens */
-      margin-bottom: 1vh; /* Added margin for spacing between rows */
+      width: auto; 
+      margin-bottom: 1vh; 
     }
   
     .info-stat {
-      width: auto; /* Adjusted for better responsiveness on smaller screens */
+      width: auto;
       margin: 1vh;
     }
   }
   
-  /* Styles for laptops and larger screens (768px and above) */
   @media (min-width: 768px) {
     .info-part {
-      width: 10vw; /* Adjusted width for larger screens */
+      width: 10vw; 
     }
   
     .info-stat {
-      width: 8vw; /* Adjusted width for larger screens */
+      width: 8vw; 
     }
   }
   
